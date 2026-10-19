@@ -287,7 +287,6 @@ For a Linux VM to function as a router, packet forwarding must be enabled in bot
 
 Tools such as Azure Network Watcher make it possible to validate the effective path taken by network traffic.
 
-
 ## Repository Structure
 
 ```text
@@ -297,15 +296,11 @@ azure-hub-spoke-nva-lab/
 ├── .gitignore
 │
 ├── docs/
-│   └── architecture.png
+│   └── azure-hub-spoke-network-architecture.drawio.png
 │
-├── infra/
-│   └── main.bicep
-│
-└── scripts/
-    └── configure-nva.sh
+└── infra/
+    └── main.bicep
 ```
-
 
 ## Security Considerations
 
