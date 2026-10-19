@@ -24,7 +24,7 @@ The environment was built as a hands-on Azure networking lab.
 
 The environment consists of one Hub VNet and two Spoke VNets.
 
-![Azure Hub-Spoke Architecture](docs/azure-hub-spoke-network-architecture.drawio.png)
+![Azure Hub-Spoke Architecture](docs/azure-hub-spoke-network-architecture.png)
 
 The Hub VNet provides centralized routing between the Spoke VNets. Traffic between Spoke 1 and Spoke 2 is forwarded through the NVA located in the Hub.
 
